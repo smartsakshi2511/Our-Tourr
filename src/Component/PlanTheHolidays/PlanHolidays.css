@@ -1,0 +1,6 @@
+.holiday-plan-section {
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/holidays-holiday-plan-bg.jpg);
+}

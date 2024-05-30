@@ -1,0 +1,59 @@
+Navbar {
+    background-color: var(--primary-bg-color);
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 7px;
+}
+
+.navbar .navbar-toggler {
+    border-color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand img {
+    filter: invert();
+}
+
+.navbar .navbar-brand img {
+    transform: rotate(45deg);
+    width: 1.5rem;
+}
+.navContainer {
+    height: 80px ;
+    
+  
+}
+.navLink{
+ 
+    
+    padding-top: 25px;
+}
+@media screen and (max-width: 576px) {
+    .navbar {
+        background-color: var(--secondary-bg-color);
+    }
+}
+ 
+.form{
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+     
+}
+ .input {
+padding: 6px;
+background: transparent;
+border: 0;
+outline: 0;
+color: #fff;
+font-size: 18px;
+max-width: 200px;
+
+}
+button{
+    background-color: rgb(160, 44, 64);
+}

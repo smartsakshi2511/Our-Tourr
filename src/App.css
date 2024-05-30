@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #963c93;
+  --secondary-color:  #a17099;
+
+  --primary-bg-color: #963c93;
+  --secondary-bg-color:  #6e2b76;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 4.5rem;
+}
+
+.App h2 {
+  font-size: 3.5rem;
+}
+
+.App h3 {
+  font-size: 2.5rem;
+}
+
+.text-green {
+  color: var(--primary-color);
+}
+
+.img-hover,
+.img-hover:hover {
+  transition: all 0.5s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 768px) {
+  .App h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .App h1 {
+    font-size: 3rem;
+  }
+
+  .App h2 {
+    font-size: 2rem;
+  }
+
+  .App h3 {
+    font-size: 1.75rem;
+  }
+}

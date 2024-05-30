@@ -1,0 +1,33 @@
+.budget-holidays .row .col-lg-6:first-of-type .img-div {
+    background-image: url(../../Assets/Images/spain.jpg);
+}
+
+.budget-holidays .row .col-lg-6:nth-last-of-type(2) .img-div {
+    background-image: url(../../Assets/Images/portugal.jpg);
+}
+
+.budget-holidays .row .col-lg-6:nth-last-of-type(3) .img-div {
+    background-image: url(../../Assets/Images/greece.jpg);
+}
+
+.budget-holidays .row .col-lg-6:last-of-type .img-div {
+    background-image: url(../../Assets/Images/maldives.jpg);
+}
+
+.budget-holidays .img-div {
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.budget-holidays .h5,
+.budget-holidays .price {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .budget-holidays .img-div {
+        height: 200px;
+    }
+}
